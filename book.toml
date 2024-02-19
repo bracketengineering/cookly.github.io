@@ -1,0 +1,6 @@
+[book]
+authors = ["0xFaded"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Cookly Terms"
