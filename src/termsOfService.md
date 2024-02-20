@@ -126,32 +126,32 @@ All rights in Cookly’s content, including but not limited to texts, graphics, 
 
 **5.2** Use of Cookly Content
 
-**5.2.1\*\*** Personal Use License\*\*:
+**5.2.1** Personal Use License:
 Cookly grants users a limited, revocable, non-transferable, and non-exclusive license to access and use Cookly’s Content for their personal, non-commercial use, strictly in accordance with these Terms. This license is granted solely to enable users to benefit from Cookly’s services as intended by Cookly.
 
-**5.2.2\*\*** Commercial Use Restriction\*\*:
+**5.2.2** Commercial Use Restriction:
 Commercial use of any content provided by Cookly, including but not limited to the redistribution, public display, or public performance of Cookly’s Content, is strictly prohibited without obtaining a prior written license from Cookly or its licensors. Cookly and its licensors reserve the right to refuse granting a license for commercial use at their sole discretion.
 
 **5.3** Accuracy of Cookly’s Content
 
-**5.3.1\*\*** No Guarantee of\*\* Accuracy:
+**5.3.1** No Guarantee of Accuracy:
 Cookly endeavours to ensure that the content provided on its platform is up to date and accurate. However, Cookly cannot guarantee the completeness, reliability, or accuracy of its content and advises users not to rely solely on such information without conducting independent verification.
 
-**5.3.2\*\*** Allergen and Intolerance\*\* Responsibility:
+**5.3.2** Allergen and Intolerance Responsibility:
 Cookly aims to identify and label allergens in the recipes and food content it provides. Nevertheless, it is the user’s responsibility to ensure that any food or recipe is suitable for their specific allergen or intolerance needs.
 
 **5.4** Health and Nutritional Information
 
-**5.4.1\*\*** Personal Health Information\*\* Submission:
+**5.4.1** Personal Health Information Submission:
 Users may choose to submit personal health information to Cookly for the purpose of receiving customized services, including meal plans and nutritional advice. This submission is voluntary and is intended to enhance the user experience on the Cookly platform.
 
-**5.4.2\*\*** Consultation with Healthcare\*\* Professionals:
+**5.4.2** Consultation with Healthcare Professionals:
 Cookly advises users to consult with a healthcare professional before making any dietary or lifestyle changes based on information obtained from the Cookly platform. It is crucial for users to seek professional advice to ensure that such changes are appropriate and safe for their personal health conditions.
 
-5.4.3 Limitation of Liability for Health and Nutritional Advice:
+**5.4.3** Limitation of Liability for Health and Nutritional Advice:
 The health and nutritional information provided by Cookly, such as recipes, nutritional information, health tips, and user-generated content, are estimates and for informational purposes only. They should not be construed as medical advice. Cookly expressly disclaims any liability for reliance on such information. Users should evaluate the appropriateness of any health or nutritional content provided by Cookly in consultation with a healthcare professional.
 
-**5.4.4\*\*** User Responsibility for\*\* Dietary Preferences and Restrictions:
+**5.4.4** User Responsibility for Dietary Preferences and Restrictions:
 Users are solely responsible for ensuring that the content accessed through Cookly, including meal plans and nutritional advice, aligns with their dietary preferences and restrictions. Cookly does not assume responsibility for the suitability of its content for the dietary needs of any user.
 
 **5.5** Cookly endeavours to provide accurate and reliable content to its users. However, users acknowledge that they use Cookly’s content at their own risk and are encouraged to independently verify any information on which they plan to rely, especially when it pertains to health or safety matters. Cookly disclaims all liability for any errors, inaccuracies, or omissions in the content provided and for any reliance placed by users on such content.
@@ -161,16 +161,16 @@ Users are solely responsible for ensuring that the content accessed through Cook
 **6.1** Breach of Terms:
 In the event of a breach of the Terms of Use by a user, Cookly reserves the right to take one or more of the following actions:
 
-**6.1.1\*\*** Issue a\***\* Warning: **
+**6.1.1** Issue a Warning:
 Cookly may notify you of the breach and require you to rectify the situation within a specified timeframe.
 
-**6.1.2\*\*** Suspend or Terminate\***\* Access: **
+**6.1.2** Suspend or Terminate Access:
 Cookly retains the right to immediately suspend or terminate your access to our services and/or your account without prior notice.
 
-**6.1.3\*\*** Remove\***\* Content: **
+**6.1.3** Remove Content:
 Cookly may remove any content you have posted on the platform that is deemed to violate our Terms of Use or Acceptable Use Policy.
 
-**6.1.4\*\*** Disclose\***\* Information: **
+**6.1.4** Disclose Information:
 If necessary, Cookly may disclose relevant information about the breach to law enforcement or regulatory bodies in compliance with applicable laws and regulations.
 
 **6.2** User-Initiated Deactivation:
@@ -178,13 +178,13 @@ Users have the option to deactivate their account as previously outlined in our 
 
 **6.3** Effects of Termination
 
-**6.3.1\*\*** Accrued Rights and\***\* Liabilities: **
+**6.3.1**Accrued Rights and\***\* Liabilities: **
 The termination of an account or access to Cookly’s services does not affect any rights or liabilities that have accrued prior to the termination. This includes any obligations arising from the use of the services or any breaches of the Terms of Use.
 
-**6.3.2\*\*** Survival of\***\* Provisions: **
+**6.3.2** Survival of Provisions:
 Certain provisions of these Terms are intended to survive termination or deactivation of your account. These include, but are not limited to, clauses relating to the ownership of Cookly’s content, license rights granted by or to Cookly, acceptable use policies, indemnities, limitations of liability, and any other provisions that by their nature should survive termination.
 
-**6.3.3\*\*** Post-Termination\***\* Access: **
+**6.3.3** Post-Termination Access: 
 Upon termination or deactivation of your account, you will immediately lose all access to and rights to use Cookly’s services. This includes any content, data, or features available through the platform. Users are advised to secure any necessary personal data or content before initiating deactivation or in anticipation of potential termination.
 
 # 7. Our liability to You
@@ -263,20 +263,20 @@ When engaging in transactions with third-party vendors through Cookly's service 
 
 **9.3** Summary of Linking to Cookly
 
-**9.3.1\*\*** Permissible Linking
-Users\*\* are permitted to link to Cookly’s homepage or its applications hosted on app platforms, provided that the link is fair, lawful, and does not damage or take advantage of our reputation. The link must not suggest any form of association, approval, or endorsement on Cookly’s part where it has not been explicitly agreed.
+**9.3.1** Permissible Linking
+Users are permitted to link to Cookly’s homepage or its applications hosted on app platforms, provided that the link is fair, lawful, and does not damage or take advantage of our reputation. The link must not suggest any form of association, approval, or endorsement on Cookly’s part where it has not been explicitly agreed.
 
-**9.3.2\*\*** Revocation of Permission\*\*
+**9.3.2** Revocation of Permission
 Cookly reserves the right to withdraw linking permission without prior notice. This right may be exercised at Cookly’s sole discretion, and any link must be removed promptly upon request.
 
-**9.3.3\*\*** Restrictions on Association\*\*
+**9.3.3** Restrictions on Association
 Any link to Cookly must not falsely imply or suggest that Cookly has endorsed the website or is affiliated with it, unless such an endorsement or affiliation exists and is officially recognised by Cookly.
 
-**9.3.4\*\*** Prohibition on Framing\*\*
+**9.3.4**Prohibition on Framing
 External websites are prohibited from framing any part of Cookly’s services or displaying Cookly’s content in a manner that suggests a relationship or endorsement by Cookly. Links should direct users to Cookly’s homepage or specific applications without creating a browser or border environment around Cookly’s content.
 
-**9.3.5\*\*** Compliance Requirements
-All\*\* links to Cookly must be in full compliance with Cookly’s Acceptable Use Standards and any other applicable terms and conditions set forth by Cookly. This ensures that the linking practices are in alignment with Cookly’s policies and ethical standards.
+**9.3.5** Compliance Requirements
+All links to Cookly must be in full compliance with Cookly’s Acceptable Use Standards and any other applicable terms and conditions set forth by Cookly. This ensures that the linking practices are in alignment with Cookly’s policies and ethical standards.
 
 **9.4** Requests for Other Uses
 Should you wish to use Cookly’s material or content in a manner not covered by the conditions mentioned above, please direct your request to Cookly’s support team via the provided contact email: contact@bracket.software. Cookly will review such requests on a case-by-case basis to ensure they align with our policies and standards.
