@@ -1,371 +1,4 @@
-<!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js light">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>Cookly Terms</title>
-        <meta name="robots" content="noindex" />
-
-
-        <!-- Custom HTML head -->
-        
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
-
-        <link rel="icon" href="favicon.svg">
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
-
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="fonts/fonts.css">
-
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
-
-        <!-- Custom theme stylesheets -->
-
-    </head>
-    <body>
-    <div id="body-container">
-        <!-- Provide site root to javascript -->
-        <script>
-            var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
-        </script>
-
-        <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script>
-            try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
-
-                if (theme.startsWith('"') && theme.endsWith('"')) {
-                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
-                }
-
-                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
-                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
-                }
-            } catch (e) { }
-        </script>
-
-        <!-- Set the theme before any content is loaded, prevents flash -->
-        <script>
-            var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
-            if (theme === null || theme === undefined) { theme = default_theme; }
-            var html = document.querySelector('html');
-            html.classList.remove('no-js')
-            html.classList.remove('light')
-            html.classList.add(theme);
-            html.classList.add('js');
-        </script>
-
-        <!-- Hide / unhide sidebar before it is displayed -->
-        <script>
-            var html = document.querySelector('html');
-            var sidebar = 'hidden';
-            if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
-                sidebar = sidebar || 'visible';
-            }
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
-        </script>
-
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="termsOfService.html"><strong aria-hidden="true">1.</strong> Cookly Terms</a></li><li class="chapter-item expanded "><a href="privatePolicy.html"><strong aria-hidden="true">2.</strong> Private Policy</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
-        </nav>
-
-        <div id="page-wrapper" class="page-wrapper">
-
-            <div class="page">
-                                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
-                    <div class="left-buttons">
-                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                            <i class="fa fa-bars"></i>
-                        </button>
-                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                            <i class="fa fa-paint-brush"></i>
-                        </button>
-                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
-                        </ul>
-                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                            <i class="fa fa-search"></i>
-                        </button>
-                    </div>
-
-                    <h1 class="menu-title">Cookly Terms</h1>
-
-                    <div class="right-buttons">
-                        <a href="print.html" title="Print this book" aria-label="Print this book">
-                            <i id="print-button" class="fa fa-print"></i>
-                        </a>
-
-                    </div>
-                </div>
-
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
-                    </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script>
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
-                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
-                    });
-                </script>
-
-                <div id="content" class="content">
-                    <main>
-                        <h3 id="table-of-contents"><a class="header" href="#table-of-contents">Table of Contents</a></h3>
-<ol>
-<li>
-<p><a href="termsOfService.html#1-your-account">Your Account</a></p>
-</li>
-<li>
-<p><a href="termsOfService.html#2-accessing-our-services">Accessing Our Services</a></p>
-</li>
-<li>
-<p><a href="termsOfService.html#3-your-content">Your Content</a></p>
-</li>
-<li>
-<p><a href="termsOfService.html#4-restrictions-to-use-and-acceptable-use-standards">Restrictions to Use and Acceptable Use Standards</a></p>
-</li>
-<li>
-<p><a href="termsOfService.html#5-ownership-and-use-of-cookly-content">Ownership and Use of Cookly Content</a></p>
-</li>
-<li>
-<p><a href="termsOfService.html#6-termination-and-suspension">Termination and Suspension</a></p>
-</li>
-<li>
-<p><a href="termsOfService.html#7-our-liability-to-you">Our Liability to You</a></p>
-</li>
-<li>
-<p><a href="termsOfService.html#8-summary-of-hacking-viruses-and-other-offenses">Summary of Hacking, Viruses, and Other Offenses</a></p>
-</li>
-<li>
-<p><a href="termsOfService.html#9-third-party-links-and-services">Third-party Links and Services</a></p>
-</li>
-<li>
-<p><a href="termsOfService.html#10-other-important-terms">Other Important Terms</a></p>
-</li>
-</ol>
-<h1 id="1-your-account"><a class="header" href="#1-your-account">1. Your Account</a></h1>
-<p><strong>1.1</strong> Age Requirement
-To create an account or use the services provided by Cookly, you must be at least eighteen (18) years of age. By agreeing to these terms, you represent and warrant that you meet this age requirement.</p>
-<p><strong>1.2</strong> Accurate Information
-When creating your Cookly account, you must provide accurate, complete, and up-to-date information. You commit to promptly updating your account information should any changes occur to ensure the continued accuracy of your details.</p>
-<p><strong>1.3</strong> Account Deactivation
-You have the option to deactivate your Cookly account at any time. This can be done through the account settings section of our platform. Upon deactivation, your account will no longer be accessible.</p>
-<p><strong>1.4</strong> Username Selection
-During the account setup process, you will select a unique username. Cookly reserves the right to modify usernames that are deemed inappropriate, infringe on third-party rights, or could be potentially confusing to other users.</p>
-<h1 id="2-accessing-our-services"><a class="header" href="#2-accessing-our-services">2. Accessing Our Services</a></h1>
-<p><strong>2.1</strong> Right to Access
-Provided that you adhere to these terms, Cookly grants you a non-exclusive, non-transferable right to access and use our services, subject to your compliance with these terms and as long as your account remains active. Please note that this right is revocable at Cookly's discretion, and we reserve the right to suspend or withdraw your access to the services without notice.</p>
-<p><strong>2.2</strong> Service Changes and Unavailability
-Cookly continuously seeks to improve and update our services. We reserve the right to modify, suspend, or discontinue any aspect of our services at any time, without obligation to provide updates or maintain the availability of specific features. Access may also be temporarily restricted for maintenance, updates, or for other operational reasons, without liability for any loss or damage incurred by users as a result.</p>
-<p><strong>2.3</strong> Account Information and Security
-You are responsible for maintaining the confidentiality of your account information, including user identification codes and passwords. You must notify Cookly promptly if you become aware of or suspect any unauthorized access to your account. Cookly cannot and will not be liable for any loss or damage arising from your failure to comply with this security obligation.</p>
-<p><strong>2.4</strong> User Responsibilities
-You are responsible for ensuring that you have all necessary systems, software, and internet connections to access Cookly's services. Cookly is not liable for any issues that arise from the inadequacy of your own systems or connections.</p>
-<p><strong>2.5</strong> Integration with Third-Party Accounts
-Users may have the option to link their Cookly account with third-party accounts (e.g., Facebook, Google, Apple). By linking your Cookly account with third-party accounts, you authorize Cookly to access and use your information from these third-party accounts, as necessary for account management and service improvement. You must comply with the terms and policies of these third-party platforms.</p>
-<h1 id="3-your-content"><a class="header" href="#3-your-content">3. Your content</a></h1>
-<p><strong>3.1</strong> Introduction to Content Submission
-At Cookly, we encourage our users to enrich our community by uploading their own content. This content, once uploaded, enhances the Cookly experience, making it more vibrant and interactive. It may become accessible not only within Cookly but also across various third-party sites and platforms, subject to individual account settings. As Cookly continues to evolve, we look forward to introducing more features and integrations that will allow for broader dissemination and interaction with user-generated content.</p>
-<p><strong>3.2</strong> User Responsibility for Uploaded Content
-When you upload content to Cookly, you retain full responsibility for it. This encompasses ensuring the legality, reliability, and appropriateness of the content, including securing any necessary permissions for its use. Cookly does not oversee the upload or utilization of user content and, consequently, will not be held accountable for it. It is imperative that your content adheres to our Acceptable Use Standards. Failure to comply may not only result in the removal of your content but also leave you liable for any resulting damages or legal obligations, potentially including compensation to Cookly.</p>
-<p><strong>3.3</strong> Content Removal and Acceptable Use
-Cookly is committed to maintaining a positive and safe environment for all users. To this end, we will remove content that doesn’t meet our Acceptable Use Standards. We reserve the right to remove any content at our discretion, without liability, to ensure our platform remains respectful and constructive.</p>
-<p><strong>3.4</strong> License Granted to Cookly
-By uploading your content to Cookly, you grant Cookly perpetual, irrevocable, royalty-free, non-exclusive, transferable, and sub-licensable license to use, modify, display, and distribute your content worldwide. This license is granted for various purposes, including but not limited to the operation and administration of Cookly, making your content available to other users, and enhancing overall service functionality.</p>
-<p><strong>3.5</strong> Duration of License
-The license you grant to Cookly with respect to your content remains in effect indefinitely, even if you decide to deactivate your account or lose access to our services for any reason. This ensures that Cookly can continue to offer and improve our service, benefiting the community at large.</p>
-<p><strong>3.6</strong> Content Deletion
-You have the option to delete your content from your account at any time. However, due to technical and operational constraints, Cookly may retain copies or related information of your content even after deletion. While the content may no longer be visible or accessible to other users, it could still exist in some form within our systems for operational purposes.</p>
-<h1 id="4-restrictions-to-use-and-acceptable-use-standards"><a class="header" href="#4-restrictions-to-use-and-acceptable-use-standards">4. Restrictions to use and Acceptable use standards.</a></h1>
-<p><strong>4.1</strong> General Restrictions on Use</p>
-<p><strong>4.1.1</strong> Lawful Use:
-The services provided by Cookly are to be utilised strictly for lawful purposes and in a manner that complies with all applicable terms and conditions set forth by Cookly. Users must ensure their use of the services adheres to all relevant laws and regulations.</p>
-<p><strong>4.1.2</strong> Prohibited Actions:
-Users are expressly forbidden from engaging in actions that:
-• Violate any applicable laws or regulations.
-• Are fraudulent or involve deceptive practices.
-• Cause harm to minors in any way.
-• Distribute unsolicited promotional or advertising material, commonly known as spam.
-• Introduce malicious software, including viruses, trojans, worms, or any other harmful components that may disrupt, damage, or limit the functionality of any software, hardware, or telecommunications equipment.</p>
-<p><strong>4.1.3</strong> Rights and Permissions:
-Users must ensure they possess all necessary rights and permissions, particularly when using services that integrate with Third-Party Accounts, to communicate with their contacts via these platforms.</p>
-<p><strong>4.1.4</strong> No Misuse:
-The misuse of Cookly’s services is strictly prohibited. This includes, but is not limited to, unauthorized copying, selling, tampering, or accessing any parts of the service, as well as interfering with the services, networks, and software associated with or utilized by Cookly.</p>
-<p><strong>4.2</strong> Interactive Services</p>
-<p><strong>4.2.1</strong> Provision:
-Cookly may offer various interactive services, including, but not limited to, social media functionalities. The availability and nature of these services may vary and are subject to change.</p>
-<p><strong>4.2.2</strong> Risk Assessment:
-Cookly commits to conducting risk assessments related to its interactive services. However, Cookly does not actively moderate these services or ensure that all content always complies with the Acceptable Use Standards.</p>
-<p><strong>4.2.3</strong> Moderation:
-In instances where moderation is implemented, Cookly will provide users with appropriate services to notify the moderator to address any concerns regarding content or interactions within these services.</p>
-<p><strong>4.2.4</strong> Compliance:
-Users of Cookly’s interactive services must adhere not only to the letter but also to the spirit of the Acceptable Use Standards. This includes ensuring that all content:</p>
-<ul>
-<li>Is relevant and accurate to the best of the user’s knowledge.</li>
-<li>Complies with all applicable laws and regulations.</li>
-</ul>
-<p><strong>4.2.5</strong> Prohibitions:
-Users must not upload, share, or otherwise disseminate content that:
-• Contains personally identifiable information without consent.
-• Is defamatory, obscene, offensive, hateful, or inflammatory.
-• Promotes violence, discrimination (based on race, sex, religion, nationality, disability, sexual orientation, age, etc.), or illegal activities.
-• Contains nudity or sexually explicit content of any kind.
-• Infringes on copyright, trademark, or any other intellectual property rights of others.
-• Is designed to deceive or mislead.
-• Breaches any legal duty owed to a third party, such as a contractual duty or a duty of confidence.
-• Promotes any form of illegal activity.
-• Constitutes an invasion of privacy, or impersonates any person, or misrepresents identity or affiliation with any person.
-• Assists, encourages, or facilitates any of the above-listed acts.</p>
-<h1 id="5-ownership-and-use-of-cookly-content"><a class="header" href="#5-ownership-and-use-of-cookly-content">5. Ownership and Use of Cookly Content</a></h1>
-<p><strong>5.1</strong> Cookly’s Content
-All rights in Cookly’s content, including but not limited to texts, graphics, logos, images, and software, are owned by Cookly or its licensors. Except for the rights expressly granted to users under these Terms, no other rights are granted, neither expressly nor by implication, to any of Cookly’s Content. Users acknowledge that they acquire no ownership rights by downloading or using Cookly’s Content.</p>
-<p><strong>5.2</strong> Use of Cookly Content</p>
-<p><strong>5.2.1</strong> Personal Use License:
-Cookly grants users a limited, revocable, non-transferable, and non-exclusive license to access and use Cookly’s Content for their personal, non-commercial use, strictly in accordance with these Terms. This license is granted solely to enable users to benefit from Cookly’s services as intended by Cookly.</p>
-<p><strong>5.2.2</strong> Commercial Use Restriction:
-Commercial use of any content provided by Cookly, including but not limited to the redistribution, public display, or public performance of Cookly’s Content, is strictly prohibited without obtaining a prior written license from Cookly or its licensors. Cookly and its licensors reserve the right to refuse granting a license for commercial use at their sole discretion.</p>
-<p><strong>5.3</strong> Accuracy of Cookly’s Content</p>
-<p><strong>5.3.1</strong> No Guarantee of Accuracy:
-Cookly endeavours to ensure that the content provided on its platform is up to date and accurate. However, Cookly cannot guarantee the completeness, reliability, or accuracy of its content and advises users not to rely solely on such information without conducting independent verification.</p>
-<p><strong>5.3.2</strong> Allergen and Intolerance Responsibility:
-Cookly aims to identify and label allergens in the recipes and food content it provides. Nevertheless, it is the user’s responsibility to ensure that any food or recipe is suitable for their specific allergen or intolerance needs.</p>
-<p><strong>5.4</strong> Health and Nutritional Information</p>
-<p><strong>5.4.1</strong> Personal Health Information Submission:
-Users may choose to submit personal health information to Cookly for the purpose of receiving customized services, including meal plans and nutritional advice. This submission is voluntary and is intended to enhance the user experience on the Cookly platform.</p>
-<p><strong>5.4.2</strong> Consultation with Healthcare Professionals:
-Cookly advises users to consult with a healthcare professional before making any dietary or lifestyle changes based on information obtained from the Cookly platform. It is crucial for users to seek professional advice to ensure that such changes are appropriate and safe for their personal health conditions.</p>
-<p><strong>5.4.3</strong> Limitation of Liability for Health and Nutritional Advice:
-The health and nutritional information provided by Cookly, such as recipes, nutritional information, health tips, and user-generated content, are estimates and for informational purposes only. They should not be construed as medical advice. Cookly expressly disclaims any liability for reliance on such information. Users should evaluate the appropriateness of any health or nutritional content provided by Cookly in consultation with a healthcare professional.</p>
-<p><strong>5.4.4</strong> User Responsibility for Dietary Preferences and Restrictions:
-Users are solely responsible for ensuring that the content accessed through Cookly, including meal plans and nutritional advice, aligns with their dietary preferences and restrictions. Cookly does not assume responsibility for the suitability of its content for the dietary needs of any user.</p>
-<p><strong>5.5</strong> Cookly endeavours to provide accurate and reliable content to its users. However, users acknowledge that they use Cookly’s content at their own risk and are encouraged to independently verify any information on which they plan to rely, especially when it pertains to health or safety matters. Cookly disclaims all liability for any errors, inaccuracies, or omissions in the content provided and for any reliance placed by users on such content.</p>
-<h1 id="6-termination-and-suspension"><a class="header" href="#6-termination-and-suspension">6. Termination and Suspension</a></h1>
-<p><strong>6.1</strong> Breach of Terms:
-In the event of a breach of the Terms of Use by a user, Cookly reserves the right to take one or more of the following actions:</p>
-<p><strong>6.1.1</strong> Issue a Warning:
-Cookly may notify you of the breach and require you to rectify the situation within a specified timeframe.</p>
-<p><strong>6.1.2</strong> Suspend or Terminate Access:
-Cookly retains the right to immediately suspend or terminate your access to our services and/or your account without prior notice.</p>
-<p><strong>6.1.3</strong> Remove Content:
-Cookly may remove any content you have posted on the platform that is deemed to violate our Terms of Use or Acceptable Use Policy.</p>
-<p><strong>6.1.4</strong> Disclose Information:
-If necessary, Cookly may disclose relevant information about the breach to law enforcement or regulatory bodies in compliance with applicable laws and regulations.</p>
-<p><strong>6.2</strong> User-Initiated Deactivation:
-Users have the option to deactivate their account as previously outlined in our Terms. Deactivation can be initiated by the user through their account settings, following the provided instructions.</p>
-<p><strong>6.3</strong> Effects of Termination</p>
-<p><strong>6.3.1</strong>Accrued Rights and**** Liabilities: **
-The termination of an account or access to Cookly’s services does not affect any rights or liabilities that have accrued prior to the termination. This includes any obligations arising from the use of the services or any breaches of the Terms of Use.</p>
-<p><strong>6.3.2</strong> Survival of Provisions:
-Certain provisions of these Terms are intended to survive termination or deactivation of your account. These include, but are not limited to, clauses relating to the ownership of Cookly’s content, license rights granted by or to Cookly, acceptable use policies, indemnities, limitations of liability, and any other provisions that by their nature should survive termination.</p>
-<p><strong>6.3.3</strong> Post-Termination Access: 
-Upon termination or deactivation of your account, you will immediately lose all access to and rights to use Cookly’s services. This includes any content, data, or features available through the platform. Users are advised to secure any necessary personal data or content before initiating deactivation or in anticipation of potential termination.</p>
-<h1 id="7-our-liability-to-you"><a class="header" href="#7-our-liability-to-you">7. Our liability to You</a></h1>
-<p><strong>7.1</strong> Conditions of Liability:
-Cookly acknowledges its responsibility for any loss or damage that is a foreseeable result of Cookly’s breach of these Terms or our negligence. A loss or damage is considered foreseeable if it is an obvious consequence of our negligence. Cookly will not accept any liability for loss or damage which was not foreseeable.</p>
-<p><strong>7.2</strong> Limitations on Liability:</p>
-<p><strong>7.2.1</strong> Exclusion of Implied Terms:
-To the extent permitted by law, Cookly expressly excludes all conditions, warranties, representations, or other terms which may apply to our services or any content on it, whether express or implied.</p>
-<p><strong>7.2.2</strong> Service Performance:
-Cookly does not guarantee that the services will always be available, uninterrupted, error-free, or meet your specific requirements. We are committed to providing high-quality services but acknowledge that complete continuity and accuracy cannot be guaranteed.</p>
-<p><strong>7.3</strong> Circumstances of Non-Liability</p>
-<p><strong>7.3.1</strong> Service Modification and Availability:
-Cookly shall not be liable for any loss or damage arising from modifications to, or unavailability of, our services, whether temporary or permanent.</p>
-<p><strong>7.3.2</strong> Technical Issues:
-Any technical problems on your end that impede the optimal use of our services, including but not limited to internet connectivity issues, are your responsibility.</p>
-<p><strong>7.3.3</strong> Content Responsibility:
-You are responsible for ensuring that any content you upload to Cookly complies with our Terms. Cookly is not liable for any loss or damage resulting from your content.</p>
-<p><strong>7.3.4</strong> Misuse of Content:
-Any misuse of Cookly’s content that breaches these Terms is solely your liability.</p>
-<p><strong>7.3.5</strong> Cybersecurity Risks:
-Cookly is not liable for damages arising from cybersecurity threats associated with your use of Cookly or the content you upload, including but not limited to data breaches or malware.</p>
-<p><strong>7.3.6</strong> Third-Party Interactions:
-Cookly is not responsible for any loss or damage resulting from your transactions or interactions with third-party entities facilitated through our services.</p>
-<p><strong>7.3.7</strong> Force Majeure:
-Cookly is not liable for any failure to comply with these Terms caused by circumstances beyond our reasonable control.</p>
-<p><strong>7.4</strong> Non-Excludable Liabilities</p>
-<p><strong>7.4.1</strong> Inviolable Rights:
-Nothing in these Terms excludes or limits Cookly’s liability for death or personal injury caused by our negligence, for fraud or fraudulent misrepresentation, or any other liability that cannot be excluded or limited by law.</p>
-<p><strong>7.4.2</strong> Consumer Rights:
-Your statutory consumer rights remain unaffected by these Terms. For further guidance, you may contact local consumer advocacy organizations.</p>
-<h1 id="8-summary-of-hacking-viruses-and-other-offenses"><a class="header" href="#8-summary-of-hacking-viruses-and-other-offenses">8. Summary of Hacking, Viruses, and Other Offenses</a></h1>
-<p><strong>8.1</strong> Security Disclaimer
-Cookly endeavours to ensure the security and integrity of its services; however, we must acknowledge the inherent limitations in guaranteeing that our services will be entirely secure or devoid of bugs and viruses. Despite our rigorous security protocols and continuous efforts to safeguard our systems, the evolving nature of cyber threats means absolute security cannot be guaranteed.</p>
-<p><strong>8.2</strong> User Responsibility
-The responsibility for securing access to Cookly’s Services falls on you. It is crucial for you to take proactive measures to protect their own information systems. This includes, but is not limited to, ensuring that their computer systems are equipped with up-to-date virus protection software. Such precautions are essential not only for the security of the user’s own systems but also for the overall safety of Cookly’s Services, as they help prevent the spread of malware and other security threats.</p>
-<p><strong>8.3</strong> Liability Limitation
-Cookly shall not be held liable for any loss or damage that might occur as a result of cyber-attacks, including but not limited to viruses, trojans, worms, logic bombs, or other material that is malicious or technologically harmful. This encompasses any such damage that might affect your computer equipment, computer programs, data, or other proprietary material due to the use of Cookly’s Services or to your downloading of any content posted on it, or on any website linked to it. Our users are advised to exercise caution and protect their systems appropriately to mitigate the risk of such threats.</p>
-<p><strong>8.4</strong> Prohibited Activities
-Engaging in activities that compromise the security of Cookly’s Services is strictly prohibited. This includes:</p>
-<p><strong>8.4.1</strong> Introducing viruses, trojans, worms, logic bombs, or other materials that are malicious or technologically harmful.</p>
-<p><strong>8.4.2</strong> Attempting to gain unauthorized access to Cookly’s Services, the server on which Cookly’s Services are stored, or any server, computer, or database connected to Cookly’s Services.</p>
-<p><strong>8.4.4</strong> Launching attacks of any kind against Cookly’s Services, including but not limited to denial-of-service attacks or distributed denial-of-service attacks.</p>
-<p><strong>8.4.5</strong> Should any user be found undertaking such prohibited activities, Cookly will take serious measures. This includes reporting the offense to relevant law enforcement authorities and disclosing the user’s identity in accordance with our privacy policy and applicable legal requirements. Cookly is committed to maintaining the security and integrity of its services and will act decisively to protect itself and its users from harmful or unauthorized activities.</p>
-<h1 id="9-third-party-links-and-services"><a class="header" href="#9-third-party-links-and-services">9. Third-party Links and Services</a></h1>
-<p><strong>9.1</strong> Third-Party Links Disclaimer
-Cookly's services may include links to external websites that are not operated or reviewed by Cookly. We make no representations or warranties regarding the content, accuracy, or completeness of the information found on these third-party sites. Cookly is not liable for any loss or damage that may arise from your use of them. Additionally, the presence of such links does not imply Cookly's endorsement of the websites, or any products, services, or information they provide.</p>
-<p><strong>9.2</strong> User Transactions with Third Parties
-When engaging in transactions with third-party vendors through Cookly's service for the purchase of goods, services, or content, users are subject to the terms and conditions of those third parties. Cookly assumes no responsibility or liability for any such external transactions. It is important for users to review the third-party's terms and policies before proceeding with any transactions. Cookly may receive commissions for purchases made through affiliate links provided within our services.</p>
-<p><strong>9.3</strong> Summary of Linking to Cookly</p>
-<p><strong>9.3.1</strong> Permissible Linking
-Users are permitted to link to Cookly’s homepage or its applications hosted on app platforms, provided that the link is fair, lawful, and does not damage or take advantage of our reputation. The link must not suggest any form of association, approval, or endorsement on Cookly’s part where it has not been explicitly agreed.</p>
-<p><strong>9.3.2</strong> Revocation of Permission
-Cookly reserves the right to withdraw linking permission without prior notice. This right may be exercised at Cookly’s sole discretion, and any link must be removed promptly upon request.</p>
-<p><strong>9.3.3</strong> Restrictions on Association
-Any link to Cookly must not falsely imply or suggest that Cookly has endorsed the website or is affiliated with it, unless such an endorsement or affiliation exists and is officially recognised by Cookly.</p>
-<p><strong>9.3.4</strong>Prohibition on Framing
-External websites are prohibited from framing any part of Cookly’s services or displaying Cookly’s content in a manner that suggests a relationship or endorsement by Cookly. Links should direct users to Cookly’s homepage or specific applications without creating a browser or border environment around Cookly’s content.</p>
-<p><strong>9.3.5</strong> Compliance Requirements
-All links to Cookly must be in full compliance with Cookly’s Acceptable Use Standards and any other applicable terms and conditions set forth by Cookly. This ensures that the linking practices are in alignment with Cookly’s policies and ethical standards.</p>
-<p><strong>9.4</strong> Requests for Other Uses
-Should you wish to use Cookly’s material or content in a manner not covered by the conditions mentioned above, please direct your request to Cookly’s support team via the provided contact email: contact@bracket.software. Cookly will review such requests on a case-by-case basis to ensure they align with our policies and standards.</p>
-<h1 id="10-other-important-terms"><a class="header" href="#10-other-important-terms">10. Other important terms</a></h1>
-<p><strong>10.1</strong> Validity of Terms
-If any provision of these Terms is found to be invalid, unlawful, or unenforceable to any extent, such provision shall be excluded from the remainder of the Terms which shall continue to be valid and enforceable to the fullest extent permitted by law.</p>
-<p><strong>10.2</strong> Governing Law and Jurisdiction
-These Terms are governed by and construed in accordance with English law. Both you and Cookly agree to submit to the non-exclusive jurisdiction of the English courts. This means that while you are free to bring claims against Cookly in your local courts under mandatory local laws, both parties acknowledge the jurisdiction of English courts for any disputes.</p>
-<p><strong>10.3</strong> Waiver
-No waiver by Cookly of any term or condition set forth in these Terms shall be deemed a further or continuing waiver of such term or condition or a waiver of any other term or condition. No failure to exercise, or delay in exercising, any right, remedy, power, or privilege arising from these Terms shall operate or be construed as a waiver thereof.</p>
-<p><strong>10.4</strong> Amendments to the Terms
-Cookly reserves the right to amend these Terms at any time. You are expected to check this page periodically to take notice of any changes Cookly makes, as they are binding on you. Certain provisions of these Terms may be superseded by expressly designated legal notices or terms located on particular pages at Cookly’s platform.</p>
-<p><strong>10.5</strong> Notification of Changes
-Cookly commits to notifying users of any changes to the Terms via email and/or in-app notifications. This notification will outline the significant amendments and the date when these changes become effective. Your continued use of Cookly’s platform after the changes have come into effect will be regarded as acceptance of the updated Terms and Conditions.
-Should you disagree with the revised Terms, you have the right to discontinue using Cookly’s services and deactivate your account before the new Terms come into force. It is your responsibility to review the changes carefully. Cookly encourages all users to fully understand and agree with the new Terms before continuing their use of the platform.</p>
-<p><strong>10.6</strong> Concerns and Contact Information
-For any concerns or questions regarding content on Cookly, or to seek further clarification on these Terms, please reach out to Cookly directly at contact@bracket.software. Your feedback and inquiries are important for maintaining the integrity and user-friendliness of our platform.</p>
-<div style="break-before: page; page-break-before: always;"></div><style>
+<style>
         [data-custom-class='body'],
         [data-custom-class='body'] * {
                 background: transparent !important;
@@ -414,6 +47,7 @@ For any concerns or questions regarding content on Cookly, or to seek further cl
                 word-break: break-word !important;
         }
 </style>
+
 <div data-custom-class="body">
         <div><strong><span style="font-size: 26px;"><span data-custom-class="title">
                                         <bdt class="block-component"></bdt>
@@ -554,7 +188,7 @@ For any concerns or questions regarding content on Cookly, or to seek further cl
                                                 process?</strong> When you visit, use, or navigate our Services, we may
                                         process personal information depending on how you interact with us and the
                                         Services, the choices you make, and the products and features you use. Learn
-                                        more about </span></span><a data-custom-class="link" href="privatePolicy.html#personalinfo"><span
+                                        more about </span></span><a data-custom-class="link" href="#personalinfo"><span
                                         style="color: rgb(0, 58, 250); font-size: 15px;"><span
                                                 data-custom-class="body_text">personal information you disclose to
                                                 us</span></span></a><span data-custom-class="body_text">.</span></div>
@@ -565,7 +199,7 @@ For any concerns or questions regarding content on Cookly, or to seek further cl
                                         <bdt class="block-component"></bdt>We may process sensitive personal information
                                         when necessary with your consent or as otherwise permitted by applicable law.
                                         Learn more about 
-                                </span></span><a data-custom-class="link" href="privatePolicy.html#sensitiveinfo"><span
+                                </span></span><a data-custom-class="link" href="#sensitiveinfo"><span
                                         style="color: rgb(0, 58, 250); font-size: 15px;"><span
                                                 data-custom-class="body_text">sensitive information we
                                                 process</span></span></a><span
@@ -599,7 +233,7 @@ For any concerns or questions regarding content on Cookly, or to seek further cl
                                                         class="block-component"></bdt>parties do we share personal
                                                 information?</strong> We may share information in specific situations
                                         and with specific <bdt class="block-component"></bdt>third parties. Learn more
-                                        about </span></span><a data-custom-class="link" href="privatePolicy.html#whoshare"><span
+                                        about </span></span><a data-custom-class="link" href="#whoshare"><span
                                         style="color: rgb(0, 58, 250); font-size: 15px;"><span
                                                 data-custom-class="body_text">when and with whom we share your personal
                                                 information</span></span></a><span style="font-size: 15px;"><span
@@ -628,7 +262,7 @@ For any concerns or questions regarding content on Cookly, or to seek further cl
                                         data-custom-class="body_text"><strong>What are your rights?</strong> Depending
                                         on where you are located geographically, the applicable privacy law may mean you
                                         have certain rights regarding your personal information. Learn more
-                                        about </span></span><a data-custom-class="link" href="privatePolicy.html#privacyrights"><span
+                                        about </span></span><a data-custom-class="link" href="#privacyrights"><span
                                         style="color: rgb(0, 58, 250); font-size: 15px;"><span
                                                 data-custom-class="body_text">your privacy rights</span></span></a><span
                                 data-custom-class="body_text">.</span></div>
@@ -745,7 +379,7 @@ For any concerns or questions regarding content on Cookly, or to seek further cl
                                         <bdt class="block-component"><span style="font-size: 15px;"><span
                                                                 data-custom-class="body_text"></span></span></bdt>
                 </div>
-                <div style="line-height: 1.5;"><a data-custom-class="link" href="privatePolicy.html#otherlaws"><span
+                <div style="line-height: 1.5;"><a data-custom-class="link" href="#otherlaws"><span
                                         style="color: rgb(0, 58, 250); font-size: 15px;">12. DO OTHER REGIONS HAVE
                                         SPECIFIC PRIVACY RIGHTS?</span></a><span style="font-size: 15px;">
                                 <bdt class="statement-end-if-in-editor"><span data-custom-class="body_text"></span>
@@ -766,10 +400,10 @@ For any concerns or questions regarding content on Cookly, or to seek further cl
                 <div style="line-height: 1.5;"><span style="font-size: 15px;"><a data-custom-class="link"
                                         href="#policyupdates"><span style="color: rgb(0, 58, 250);">13. DO WE MAKE
                                                 UPDATES TO THIS NOTICE?</span></a></span></div>
-                <div style="line-height: 1.5;"><a data-custom-class="link" href="privatePolicy.html#contact"><span
+                <div style="line-height: 1.5;"><a data-custom-class="link" href="#contact"><span
                                         style="color: rgb(0, 58, 250); font-size: 15px;">14. HOW CAN YOU CONTACT US
                                         ABOUT THIS NOTICE?</span></a></div>
-                <div style="line-height: 1.5;"><a data-custom-class="link" href="privatePolicy.html#request"><span
+                <div style="line-height: 1.5;"><a data-custom-class="link" href="#request"><span
                                         style="color: rgb(0, 58, 250);">15. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE
                                         DATA WE COLLECT FROM YOU?</span></a></div>
                 <div style="line-height: 1.5;"><br></div>
@@ -8083,75 +7717,31 @@ For any concerns or questions regarding content on Cookly, or to seek further cl
                                                                                                                                                 ul {
                                                                                                                                                         list-style-type: square;
                                                                                                                                                 }
-<pre><code>                                                                                                                                            ul&gt;li&gt;ul {
-                                                                                                                                                    list-style-type: circle;
-                                                                                                                                            }
 
-                                                                                                                                            ul&gt;li&gt;ul&gt;li&gt;ul {
-                                                                                                                                                    list-style-type: square;
-                                                                                                                                            }
+                                                                                                                                                ul>li>ul {
+                                                                                                                                                        list-style-type: circle;
+                                                                                                                                                }
 
-                                                                                                                                            ol li {
-                                                                                                                                                    font-family: Arial;
-                                                                                                                                            }
-                                                                                                                                    &lt;/style&gt;
-                                                                                                                            &lt;/div&gt;
-                                                                                                                            &lt;div
-                                                                                                                                    style=&quot;color: #595959;font-size: 14px;font-family: Arial;padding-top:16px;&quot;&gt;
-                                                                                                                                    This
-                                                                                                                                    privacy
-                                                                                                                                    policy
-                                                                                                                                    was
-                                                                                                                                    created
-                                                                                                                                    using
-                                                                                                                                    Termly's
-                                                                                                                                    &lt;a style=&quot;color: rgb(48, 48, 241) !important;&quot;
-                                                                                                                                            href=&quot;https://termly.io/products/privacy-policy-generator/&quot;&gt;Privacy
-                                                                                                                                            Policy
-                                                                                                                                            Generator&lt;/a&gt;.
-                                                                                                                            &lt;/div&gt;</code></pre>
+                                                                                                                                                ul>li>ul>li>ul {
+                                                                                                                                                        list-style-type: square;
+                                                                                                                                                }
 
-                    </main>
-
-                    <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-
-
-                        <div style="clear: both"></div>
-                    </nav>
-                </div>
-            </div>
-
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-
-            </nav>
-
-        </div>
-
-
-
-
-        <script>
-            window.playground_copyable = true;
-        </script>
-
-
-        <script src="elasticlunr.min.js"></script>
-        <script src="mark.min.js"></script>
-        <script src="searcher.js"></script>
-
-        <script src="clipboard.min.js"></script>
-        <script src="highlight.js"></script>
-        <script src="book.js"></script>
-
-        <!-- Custom JS scripts -->
-
-        <script>
-        window.addEventListener('load', function() {
-            window.setTimeout(window.print, 100);
-        });
-        </script>
-
-    </div>
-    </body>
-</html>
+                                                                                                                                                ol li {
+                                                                                                                                                        font-family: Arial;
+                                                                                                                                                }
+                                                                                                                                        </style>
+                                                                                                                                </div>
+                                                                                                                                <div
+                                                                                                                                        style="color: #595959;font-size: 14px;font-family: Arial;padding-top:16px;">
+                                                                                                                                        This
+                                                                                                                                        privacy
+                                                                                                                                        policy
+                                                                                                                                        was
+                                                                                                                                        created
+                                                                                                                                        using
+                                                                                                                                        Termly's
+                                                                                                                                        <a style="color: rgb(48, 48, 241) !important;"
+                                                                                                                                                href="https://termly.io/products/privacy-policy-generator/">Privacy
+                                                                                                                                                Policy
+                                                                                                                                                Generator</a>.
+                                                                                                                                </div>
