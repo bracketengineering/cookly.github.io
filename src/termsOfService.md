@@ -1,5 +1,5 @@
 # Terms Of Service
-###### Last Updated February 19th, 2024
+##### Last Updated February 19, 2024
 
 ### Table of Contents
 
