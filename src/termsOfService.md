@@ -1,3 +1,6 @@
+# Terms Of Service
+###### Last Updated February 19th, 2024
+
 ### Table of Contents
 
 1. [Your Account](#1-your-account)
@@ -17,7 +20,7 @@
 9. [Third-party Links and Services](#9-third-party-links-and-services)
 10. [Other Important Terms](#10-other-important-terms)
 
-# 1. Your Account
+## 1. Your Account
 
 **1.1** Age Requirement
 To create an account or use the services provided by Cookly, you must be at least eighteen (18) years of age. By agreeing to these terms, you represent and warrant that you meet this age requirement.
@@ -31,7 +34,7 @@ You have the option to deactivate your Cookly account at any time. This can be d
 **1.4** Username Selection
 During the account setup process, you will select a unique username. Cookly reserves the right to modify usernames that are deemed inappropriate, infringe on third-party rights, or could be potentially confusing to other users.
 
-# 2. Accessing Our Services
+## 2. Accessing Our Services
 
 **2.1** Right to Access
 Provided that you adhere to these terms, Cookly grants you a non-exclusive, non-transferable right to access and use our services, subject to your compliance with these terms and as long as your account remains active. Please note that this right is revocable at Cookly's discretion, and we reserve the right to suspend or withdraw your access to the services without notice.
@@ -48,7 +51,7 @@ You are responsible for ensuring that you have all necessary systems, software, 
 **2.5** Integration with Third-Party Accounts
 Users may have the option to link their Cookly account with third-party accounts (e.g., Facebook, Google, Apple). By linking your Cookly account with third-party accounts, you authorize Cookly to access and use your information from these third-party accounts, as necessary for account management and service improvement. You must comply with the terms and policies of these third-party platforms.
 
-# 3. Your content
+## 3. Your content
 
 **3.1** Introduction to Content Submission
 At Cookly, we encourage our users to enrich our community by uploading their own content. This content, once uploaded, enhances the Cookly experience, making it more vibrant and interactive. It may become accessible not only within Cookly but also across various third-party sites and platforms, subject to individual account settings. As Cookly continues to evolve, we look forward to introducing more features and integrations that will allow for broader dissemination and interaction with user-generated content.
@@ -68,7 +71,7 @@ The license you grant to Cookly with respect to your content remains in effect i
 **3.6** Content Deletion
 You have the option to delete your content from your account at any time. However, due to technical and operational constraints, Cookly may retain copies or related information of your content even after deletion. While the content may no longer be visible or accessible to other users, it could still exist in some form within our systems for operational purposes.
 
-# 4. Restrictions to use and Acceptable use standards.
+## 4. Restrictions to use and Acceptable use standards.
 
 **4.1** General Restrictions on Use
 
@@ -119,7 +122,7 @@ Users must not upload, share, or otherwise disseminate content that:
 • Constitutes an invasion of privacy, or impersonates any person, or misrepresents identity or affiliation with any person.
 • Assists, encourages, or facilitates any of the above-listed acts.
 
-# 5. Ownership and Use of Cookly Content
+## 5. Ownership and Use of Cookly Content
 
 **5.1** Cookly’s Content
 All rights in Cookly’s content, including but not limited to texts, graphics, logos, images, and software, are owned by Cookly or its licensors. Except for the rights expressly granted to users under these Terms, no other rights are granted, neither expressly nor by implication, to any of Cookly’s Content. Users acknowledge that they acquire no ownership rights by downloading or using Cookly’s Content.
@@ -156,7 +159,7 @@ Users are solely responsible for ensuring that the content accessed through Cook
 
 **5.5** Cookly endeavours to provide accurate and reliable content to its users. However, users acknowledge that they use Cookly’s content at their own risk and are encouraged to independently verify any information on which they plan to rely, especially when it pertains to health or safety matters. Cookly disclaims all liability for any errors, inaccuracies, or omissions in the content provided and for any reliance placed by users on such content.
 
-# 6. Termination and Suspension
+## 6. Termination and Suspension
 
 **6.1** Breach of Terms:
 In the event of a breach of the Terms of Use by a user, Cookly reserves the right to take one or more of the following actions:
@@ -187,7 +190,7 @@ Certain provisions of these Terms are intended to survive termination or deactiv
 **6.3.3** Post-Termination Access: 
 Upon termination or deactivation of your account, you will immediately lose all access to and rights to use Cookly’s services. This includes any content, data, or features available through the platform. Users are advised to secure any necessary personal data or content before initiating deactivation or in anticipation of potential termination.
 
-# 7. Our liability to You
+## 7. Our liability to You
 
 **7.1** Conditions of Liability:
 Cookly acknowledges its responsibility for any loss or damage that is a foreseeable result of Cookly’s breach of these Terms or our negligence. A loss or damage is considered foreseeable if it is an obvious consequence of our negligence. Cookly will not accept any liability for loss or damage which was not foreseeable.
@@ -231,7 +234,7 @@ Nothing in these Terms excludes or limits Cookly’s liability for death or pers
 **7.4.2** Consumer Rights:
 Your statutory consumer rights remain unaffected by these Terms. For further guidance, you may contact local consumer advocacy organizations.
 
-# 8. Summary of Hacking, Viruses, and Other Offenses
+## 8. Summary of Hacking, Viruses, and Other Offenses
 
 **8.1** Security Disclaimer
 Cookly endeavours to ensure the security and integrity of its services; however, we must acknowledge the inherent limitations in guaranteeing that our services will be entirely secure or devoid of bugs and viruses. Despite our rigorous security protocols and continuous efforts to safeguard our systems, the evolving nature of cyber threats means absolute security cannot be guaranteed.
@@ -253,7 +256,7 @@ Engaging in activities that compromise the security of Cookly’s Services is st
 
 **8.4.5** Should any user be found undertaking such prohibited activities, Cookly will take serious measures. This includes reporting the offense to relevant law enforcement authorities and disclosing the user’s identity in accordance with our privacy policy and applicable legal requirements. Cookly is committed to maintaining the security and integrity of its services and will act decisively to protect itself and its users from harmful or unauthorized activities.
 
-# 9. Third-party Links and Services
+## 9. Third-party Links and Services
 
 **9.1** Third-Party Links Disclaimer
 Cookly's services may include links to external websites that are not operated or reviewed by Cookly. We make no representations or warranties regarding the content, accuracy, or completeness of the information found on these third-party sites. Cookly is not liable for any loss or damage that may arise from your use of them. Additionally, the presence of such links does not imply Cookly's endorsement of the websites, or any products, services, or information they provide.
@@ -281,7 +284,7 @@ All links to Cookly must be in full compliance with Cookly’s Acceptable Use St
 **9.4** Requests for Other Uses
 Should you wish to use Cookly’s material or content in a manner not covered by the conditions mentioned above, please direct your request to Cookly’s support team via the provided contact email: contact@bracket.software. Cookly will review such requests on a case-by-case basis to ensure they align with our policies and standards.
 
-# 10. Other important terms
+## 10. Other important terms
 
 **10.1** Validity of Terms
 If any provision of these Terms is found to be invalid, unlawful, or unenforceable to any extent, such provision shall be excluded from the remainder of the Terms which shall continue to be valid and enforceable to the fullest extent permitted by law.
