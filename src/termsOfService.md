@@ -181,7 +181,7 @@ Users have the option to deactivate their account as previously outlined in our 
 
 **6.3** Effects of Termination
 
-**6.3.1**Accrued Rights and\***\* Liabilities: **
+**6.3.1**Accrued Rights and Liabilities: 
 The termination of an account or access to Cookly’s services does not affect any rights or liabilities that have accrued prior to the termination. This includes any obligations arising from the use of the services or any breaches of the Terms of Use.
 
 **6.3.2** Survival of Provisions:
